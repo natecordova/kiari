@@ -9,7 +9,7 @@ public class SwiperPages : MonoBehaviour, IDragHandler, IEndDragHandler
     public float percentThreshold = 0.2f;
     public float easing = 0.5f;
     public int totalPages = 1;
-    private int currentPage = 1;
+    public int currentPage = 1;  //Cambie a public para cambiar en el game object de cada consejo
 
     // Start is called before the first frame update
     void Start()

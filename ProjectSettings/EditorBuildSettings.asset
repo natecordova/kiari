@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main_Menu.unity
     guid: 46fe71b0a05623f4bb120e9254754aad
+  - enabled: 1
+    path: Assets/Scenes/MisTerapias.unity
+    guid: 2c673e4f150e10747b98a5a9fb386d6e
+  - enabled: 1
+    path: Assets/Scenes/Histories.unity
+    guid: e1558c15f15e6914d9f8bc97ba0dc793
   m_configObjects: {}

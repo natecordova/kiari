@@ -258,10 +258,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 19295594}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5e61743b31036459b94f3ec6a3900e, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b1c002908404a843892443b1130d859, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Panel: {fileID: 0}
 --- !u!1 &45667199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1298,9 +1297,10 @@ GameObject:
   - component: {fileID: 589274650}
   - component: {fileID: 589274651}
   - component: {fileID: 589274652}
+  - component: {fileID: 589274653}
   m_Layer: 5
   m_Name: ToggleGroup
-  m_TagString: Untagged
+  m_TagString: ToggleGroup
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1365,6 +1365,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AllowSwitchOff: 1
+--- !u!114 &589274653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589274649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b1c002908404a843892443b1130d859, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &594894008
 GameObject:
   m_ObjectHideFlags: 0

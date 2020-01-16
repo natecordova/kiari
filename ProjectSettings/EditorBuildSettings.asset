@@ -29,4 +29,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Histories.unity
     guid: e1558c15f15e6914d9f8bc97ba0dc793
+  - enabled: 1
+    path: Assets/Scenes/PopUpMain_Menu.unity
+    guid: 7f0d79e8cce16f84b86bfc00bba3355c
+  - enabled: 1
+    path: Assets/Scenes/ProntoMisTerapias.unity
+    guid: 773d4bb8b69da7d4aa1a22103f79934b
+  - enabled: 1
+    path: Assets/Scenes/Localitation.unity
+    guid: 256d4fc6a1dad2e4ab779990894257b0
   m_configObjects: {}

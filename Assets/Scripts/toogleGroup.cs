@@ -42,17 +42,17 @@ public class toogleGroup : MonoBehaviour
         if (checkbox1.isOn == true)
         {
             Debug.Log("check1");
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene("MisTerapias");
         }
         else if(checkbox2.isOn == true)
         {
             Debug.Log("check2");
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene("Histories");
         }
         else if (checkbox3.isOn == true)
         {
             Debug.Log("check3");
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene("Localitation");
         }
 
 

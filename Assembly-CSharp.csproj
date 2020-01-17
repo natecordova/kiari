@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ButtonsPanel.cs" />
     <Compile Include="Assets\Scripts\CambiarEscenaAuto.cs" />
+    <Compile Include="Assets\Scripts\GeoMap.cs" />
     <Compile Include="Assets\Scripts\levelManager.cs" />
     <Compile Include="Assets\Scripts\MenuDesplegableController.cs" />
     <Compile Include="Assets\Scripts\SwiperPages.cs" />

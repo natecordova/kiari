@@ -10,7 +10,7 @@ public class GeoMap : MonoBehaviour
     public Text latitudText;
     public Text longitudText;
 
-    public int zoom = 20;
+    public int zoom = 12;
 
 
 
@@ -41,7 +41,7 @@ public class GeoMap : MonoBehaviour
         float longitud = Input.location.lastData.longitude;
         yield return longitud;
 
-        urlMap = "https://maps.googleapis.com/maps/api/staticmap?center=" + latitud + ","+longitud+ "&zoom="+zoom+ "&size=600x300&maptype=roadmap&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318&markers=color:red%7Clabel:C%7C" + latitud+","+longitud+"&key=AIzaSyD65lnodvxGj2IdvHE7Hkuwht_Cv2h4Mac";
+        urlMap = "https://maps.googleapis.com/maps/api/staticmap?center=" + latitud + ","+longitud+ "&zoom="+zoom+ "&size=600x300&maptype=roadmap&markers=color:blue%7Clabel:V%7C-2.184562,-79.8808442&markers=color:green%7Clabel:G%7C40.711614,-74.012318&markers=color:red%7Clabel:C%7C" + latitud+","+longitud+"&key=AIzaSyD65lnodvxGj2IdvHE7Hkuwht_Cv2h4Mac";
 
         WWW www = new WWW(urlMap);
         yield return www;

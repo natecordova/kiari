@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Auspiciantes.unity
+- path: Assets/Scenes/Histories.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
